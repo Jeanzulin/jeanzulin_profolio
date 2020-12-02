@@ -543,10 +543,6 @@ section .subTitle span:after {
         text-align: center;
     }
 
-    .myWork .card:nth-child(2) {
-        margin: 0;
-    }
-
 }
 
 .myWork .card:hover {
