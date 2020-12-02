@@ -547,10 +547,6 @@ section .subTitle span:after {
         margin: 0;
     }
 
-    .myWork .card {
-        margin: 32px;
-    }
-
 }
 
 .myWork .card:hover {
