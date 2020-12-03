@@ -550,10 +550,13 @@ section .subTitle span:after {
 }
 
 @media screen and (max-width: 576px) {
-
+.myWork-list {
+    justify-content: center;
+}
 .myWork {
     justify-content: center;
 }
+
     .myWork-content .btn-group .btn {
         font-size: 14px;
         margin:8px;
