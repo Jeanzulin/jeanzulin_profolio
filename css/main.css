@@ -310,12 +310,12 @@ section .subTitle span:after {
     }
     section .subTitle span:before {
         left: -65px;
-        width: 50px;
+        width: 30px;
     }
     
     section .subTitle span:after {
         right: -65px;
-        width: 50px;
+        width: 30px;
     }
 }
 
@@ -502,7 +502,6 @@ section .subTitle span:after {
     color: #ffffff;
     background: #45525e;
     ;
-    margin: 0 12px;
 }
 
 .myWork-list {
@@ -535,14 +534,24 @@ section .subTitle span:after {
 }
 
 @media screen and (max-width: 576px) {
+
+.myWork {
+    justify-content: center;
+}
     .myWork-content .btn-group .btn {
         font-size: 14px;
-        margin: 0 8px;
+        margin:8px;
     }
     .myWork-list li h3 {
         text-align: center;
     }
+    .myWork .card:nth-child(2) {
+        margin: 0;
+        margin-bottom: 48px;
+    }    
+    .myWork .card {
 
+    }
 }
 
 .myWork .card:hover {
