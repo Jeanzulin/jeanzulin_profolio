@@ -484,6 +484,7 @@ header {
 
 
     .nav-menu .menu-item {
+        justify-content: center;
         margin: 0;
         padding: 2px 0;
         width: 100%;
@@ -1168,7 +1169,12 @@ transform:translateX(5px);
     width: 100%;    
     max-width: 900px;
 }
-
+@media screen and (max-width: 786px) {
+  
+.fancybox-content {
+    padding: 18px;
+}
+}
 .fancybox-button {
     width: 50px;
     height: 54px;
@@ -1176,7 +1182,6 @@ transform:translateX(5px);
 
 .popup-content {
     padding-top: 12px;
-    padding-left: 20px;
 }
 
 .popup-content .title {
