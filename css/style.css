@@ -248,7 +248,7 @@ a:hover {
 
 /* ------------------------------------------ nav --------------------------------------------- */
 header {
-    background: #ffffff6b;
+    background: #ffffff;
     width: 100%;
     margin: auto;
     display: block;
@@ -851,11 +851,12 @@ header {
     text-align: center;
     border-radius: 32px;
     transition: .2s;
-    border:1px solid #ecdddd;
+   font-weight: bold;
+    box-shadow: 0 0 4px rgb(130, 130, 130);
 }
 
 #section1 .btn:hover{
-   opacity: .8;
+    box-shadow: none;
 }
 
 
