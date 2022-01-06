@@ -528,7 +528,7 @@ background:#fffefe;
     }
     .kv-text {
         width: 75%;
-        font-size: 38px;
+        font-size: 32px;
         line-height: 70px;
     }
 }
@@ -542,7 +542,7 @@ background:#fffefe;
         /* height:500px; */
     }
     .kv-text {
-        font-size: 30px;
+        font-size: 28px;
         line-height: 50px;
         width: 100%;
         padding-left: 0px;
@@ -561,7 +561,7 @@ background:#fffefe;
         width: 180px;
     }
     .kv-text {
-        font-size: 28px;
+        font-size: 24px;
     }
 }
 
