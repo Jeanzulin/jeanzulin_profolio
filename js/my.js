@@ -5,11 +5,13 @@ $(document).ready(function () {
         AOS.init();
     })
 
-   //fancybox
-        $(".fancybox").fancybox({
-            openEffect	: 'none',
-            closeEffect	: 'none'
-        });
+//fancybox
+            $(".fancybox").fancybox({
+                openEffect: 'none',
+                closeEffect: 'none',
+              touch: {
+      vertical: false
+    },            });
 
 
 
